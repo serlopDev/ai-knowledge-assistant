@@ -1,7 +1,6 @@
 # --- Private files (never commit) ---
 PLAN_PRIVADO.md
 prompt.md
-README.md
 .env
 .env.*
 !.env.example
@@ -11,6 +10,7 @@ README.md
 .idea/
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 *.swp
 
 # --- Node (frontend, backend) ---
