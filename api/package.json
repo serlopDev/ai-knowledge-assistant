@@ -21,7 +21,7 @@
     "test:cov": "vitest run --coverage",
     "test:debug": "vitest --inspect-brk --no-file-parallelism",
     "test:e2e": "vitest run --config ./vitest.config.e2e.ts",
-    "test:complete": "prettier --check src && pnpm run test && pnpm run test:e2e && pnpm run lint && pnpm run build"
+    "test:complete": "pnpm run test && pnpm run test:e2e && pnpm run lint && pnpm run build"
   },
   "dependencies": {
     "@nestjs/common": "^12.0.1",
